@@ -57,3 +57,44 @@ input, button {
     color: var(--light);
     font-size: 1.25rem;
 }
+
+#new-task-input::placeholder {
+    color: var(--gray);
+}
+
+#new-task-submit {
+    color: var(--pink);
+    font-size: 1.25rem;
+    font-weight: 700;
+    background: linear-gradient(to right, var(--pink), var(--purple));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#new-task-submit:hover {
+    opacity: 0.8;
+
+}
+
+#new-task-submit:active {
+    opacity: 0.6s;
+}
+
+main {
+    flex: 1 1 0%;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.task-list {
+    padding: 1rem;
+}
+
+.task-list h2 {
+    font-size: ;
+}
